@@ -22,6 +22,7 @@ body {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: 22px;
+  font-weight: bolder;
   color: #fff;
   padding: 10px 10px 10px 10px;
 }
@@ -116,6 +117,13 @@ body {
 
 #items {
   font-family: "segoe ui";
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#skills {
+  font-family: "segoe ui";
+  margin-left: 34%;
   font-size: 30px;
   font-weight: bold;
 }
