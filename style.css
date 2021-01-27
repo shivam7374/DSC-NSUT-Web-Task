@@ -97,3 +97,25 @@ body {
     overflow-y: auto;
   }
 }
+#circle-shape-example .curve {
+  width: 20%;
+  height: auto;
+  min-width: 150px;
+  margin-top: 2%;
+  margin-left: 40%;
+  border-radius: 50%;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+}
+#name {
+  font-family: "segoe ui";
+  font-size: 50px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#items {
+  font-family: "segoe ui";
+  font-size: 30px;
+  font-weight: bold;
+}
